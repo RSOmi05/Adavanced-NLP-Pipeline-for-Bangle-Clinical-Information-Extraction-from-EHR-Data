@@ -243,7 +243,7 @@ pip install -r requirements.txt
 python setup.py download_models
 
 # Run extraction pipeline
-python extract_clinical_info.py --input "sample_ehr.txt" --output "extracted_data.json"
+python clinical_information_extractor.py --input "sample_ehr.txt" --output "extracted_data.json"
 ```
 
 ### API Usage
