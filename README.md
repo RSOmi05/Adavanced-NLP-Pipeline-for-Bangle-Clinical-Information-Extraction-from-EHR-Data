@@ -1,4 +1,4 @@
-# Protocol-from-Bangle-Clinical-Information-Extraction-from-EHR-Data
+# Adavanced-NLP-Pipeline-for-Bangle-Clinical-Information-Extraction-from-EHR-Data
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![NLP](https://img.shields.io/badge/NLP-Bangla-green.svg)]()
