@@ -213,8 +213,19 @@ Our system identifies **9 primary clinical entity types**:
 
 ### Prerequisites
 ```bash
-pip install torch transformers spacy nltk opencv-python pytesseract
-pip install indic-nlp-library bnltk fastapi uvicorn
+def install_packages():
+    packages = [
+        'transformers', 'torch', 'pandas', 'numpy', 'datasets', 'seqeval', 'plotly', 'matplotlib',
+        'seaborn', 'opencv-python', 'pytesseract', 'scikit-learn', 'seqeval', 'plotly'
+    ]
+    for package in packages:
+        try:
+            __import__(package)
+        except ImportError:
+            subprocess.check_call([sys.executable, '-m', 'pip', 'install', package])
+
+install_packages()
+
 ```
 
 ### Quick Start
