@@ -220,10 +220,10 @@ pip install indic-nlp-library bnltk fastapi uvicorn
 ### Quick Start
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/bangla-clinical-nlp-ehr-information-extraction.git
+git clone https://github.com/RSOmi05/Adavanced-NLP-Pipeline-for-Bangle-Clinical-Information-Extraction-from-EHR-Data.git
 
 # Navigate to directory
-cd bangla-clinical-nlp-ehr-information-extraction
+cd Adavanced-NLP-Pipeline-for-Bangle-Clinical-Information-Extraction-from-EHR-Data
 
 # Install dependencies
 pip install -r requirements.txt
@@ -358,23 +358,13 @@ results = extractor.batch_extract("ehr_files/", output_format="json")
 
 
 
-### Citation
-If you use this work in your research, please cite:
-```bibtex
-@software{bangla_clinical_nlp_2024,
-  title={Bangla Clinical NLP EHR Information Extraction},
-  author={Rahat Shahrior},
-  year={2024},
-  url={https://github.com/yourusername/bangla-clinical-nlp-ehr-information-extraction}
-}
-```
 
 ## 📧 Contact
 
 **Rahat Shahrior**
 - 📧 **Email**: rahat.shahriar04@gmail.com
 - 📱 **Phone**: +880 1975714851
-- 💼 **LinkedIn**: [LinkedIn Profile](https://linkedin.com/in/rahat-shahrior)
+- 💼 **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/rsomi1715005/)
 - 🔬 **Research Interest**: Clinical NLP, Healthcare AI, Bangla Language Processing
 
 ### Research Collaboration
